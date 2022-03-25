@@ -13,7 +13,7 @@ def silly_sum():
 
     while num != 0:
         sum += num
-        if sum >= 1000:
+        if sum >= 500:
             break
 
         num = int(input('Please enter a number => '))
