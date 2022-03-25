@@ -8,12 +8,11 @@ def silly_sum():
         the sum reaches or exceeds 1000
     """
 
-    num = int(input('Please enter a number => '))
+    num = int(input('Please enter a number!!!! => '))
     sum = 0
-
     while num != 0:
         sum += num
-        if sum >= 500:
+        if sum >= 100:
             break
 
         num = int(input('Please enter a number => '))
